@@ -1,10 +1,6 @@
 @import "tailwindcss";
 
-<<<<<<< HEAD
-@theme{
-=======
 @theme {
->>>>>>> Criar_Design
   --color-dark-900: #111111;
   --color-dark-700: #757575;
   --color-dark-500: #aaaaaa;
@@ -18,12 +14,6 @@
   --color-red: #d33918;
   --color-orange : #d37918;
 
-<<<<<<< HEAD
-  --font-jost: "Jost", sans-serif;
-  --text-heading-1--line-height: 78px;
-  --text-heading-1--font-weight: 700;
-
-=======
   --font-jost: 'Jost', sans-serif;
 
   --text-heading-1: 72px;
@@ -38,7 +28,6 @@
   --text-heading-3--line-height: 30px;
   --text-heading-3--font-weight: 500;
 
->>>>>>> Criar_Design
   --text-lead: 20px;
   --text-lead--line-height: 28px;
   --text-lead--font-weight: 500;
@@ -58,4 +47,12 @@
   --text-footnote: 12px;
   --text-footnote--line-height: 18px;
   --text-footnote--font-weight: 400;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-light-100);
+    color: var(--color-dark-900);
+    min-height: 100vh;
+  }
 }

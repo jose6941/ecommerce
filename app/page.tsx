@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-import Navbar from "./components/Navbar";
-
-export default function Home() {
-  return (
-    <div></div>
-=======
 import React from "react";
 import Card from "./components/Card";
 
@@ -61,6 +54,5 @@ export default function Home() {
         </div>
       </section>
     </main>
->>>>>>> Criar_Design
   );
 }
