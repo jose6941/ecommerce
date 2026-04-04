@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-@theme{
+@theme {
   --color-dark-900: #111111;
   --color-dark-700: #757575;
   --color-dark-500: #aaaaaa;
@@ -14,9 +14,19 @@
   --color-red: #d33918;
   --color-orange : #d37918;
 
-  --font-jost: "Jost", sans-serif;
+  --font-jost: 'Jost', sans-serif;
+
+  --text-heading-1: 72px;
   --text-heading-1--line-height: 78px;
   --text-heading-1--font-weight: 700;
+
+  --text-heading-2: 56px;
+  --text-heading-2--line-height: 60px;
+  --text-heading-2--font-weight: 700;
+
+  --text-heading-3: 24px;
+  --text-heading-3--line-height: 30px;
+  --text-heading-3--font-weight: 500;
 
   --text-lead: 20px;
   --text-lead--line-height: 28px;
