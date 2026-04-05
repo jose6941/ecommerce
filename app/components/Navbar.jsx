@@ -37,10 +37,10 @@ export default function Navbar() {
 
                     <div className="hidden items-center gap-6 md:flex">
                         <button className="text-sm font-bold text-[--color-dark-900] transition-colors duration-200 hover:text-[--color-primary-500]">
-                            Entrar
+                            <Link href="/sign-in">Entrar</Link>
                         </button>
                         <button className="text-sm font-bold text-[--color-dark-900] transition-colors duration-200 hover:text-[--color-primary-500]">
-                            Cadastro
+                            <Link href="/sign-up">Cadastro</Link>
                         </button>
                     </div>
 
