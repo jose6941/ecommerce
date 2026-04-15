@@ -36,20 +36,20 @@ export default function Card({
     className = "",
     meta,
 }: CardProps) {
-    
-    const displayPrice = price !== undefined 
-        ? typeof price === "number" 
-            ? `R$ ${price.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}` 
-            : price 
+
+    const displayPrice = price !== undefined
+        ? typeof price === "number"
+            ? `R$ ${price.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}`
+            : price
         : null;
 
     const content = (
-        <article className={`group rounded-xl bg-light-100 ring-1 ring-light-300 transition-colors hover:ring-dark-500 ${className}`}>
+        <article className={`group rounded-xl bg-light-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 ${className}`}>
             <div className="relative aspect-square overflow-hidden rounded-t-xl bg-light-200">
                 {imageSrc ? (
-                    <Image 
-                        src={imageSrc} 
-                        alt={imageAlt || title} 
+                    <Image
+                        src={imageSrc}
+                        alt={imageAlt || title}
                         fill
                         sizes="(min-width: 1280px) 360px, (min-width: 1024) 300px, (min-width: 640px) 45vw, 90vw"
                         className="object-cover transition-transform duration-300 group-hover:scale-105"
@@ -63,8 +63,8 @@ export default function Card({
                     <h3 className="text-heading-3 text-dark-900">{title}</h3>
                     {displayPrice && <span className="text-body-medium text-dark-900">{displayPrice}</span>}
                 </div>
-                
-                
+
+
                 {description && <p className="text-body text-dark-700">{description}</p>}
                 {subtitle && <p className="text-body text-dark-700">{subtitle}</p>}
                 {meta && (
@@ -77,14 +77,14 @@ export default function Card({
     );
 
     return href ? (
-        <Link 
-            href={href} 
+        <Link
+            href={href}
             aria-label={href}
             className="block rounded-xl focus:outline-none focus-visible:ring-2 focus-visible:ring-visible:ring[--color-dark-900]"
         >
             {content}
-        </Link> 
-        ) : (
-            content
-        );
+        </Link>
+    ) : (
+        content
+    );
 }

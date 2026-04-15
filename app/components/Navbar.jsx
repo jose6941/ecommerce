@@ -15,7 +15,7 @@ export default function Navbar() {
     const [open, setOpen] = useState(false);
 
     return (
-        <header className="sticky top-0 z-50 bg-[--color-light-100]">
+        <header className="sticky top-0 z-50 bg-[--color-light-100] shadow-md transition-shadow duration-300">
             <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="flex h-16 items-center justify-between">
                     <Link href="/" aria-label="Loja" className="flex items-center text-lg font-bold text-[--color-dark-100]">
