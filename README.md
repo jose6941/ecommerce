@@ -88,18 +88,5 @@ Siga o passo-a-passo abaixo para visualizar o projeto funcionando no seu ambient
    npm run dev
    ```
 
----
-
-## 🧭 Roadmap e Funcionalidades Futuras
-
-O projeto continua sendo aprimorado! Aqui estão os próximos passos:
-
-- [ ] **Integração Real de Autenticação:** Evolução dos modais de Sign In/Up com NextAuth.js (Login Google/GitHub).
-- [ ] **Carrinho e Finalização (Checkout):** Criação da sacola de compras com gestão de estado robusta na ponta do cliente.
-- [ ] **Modo Noturno (Dark Mode):** Alternância completa de temas implementada pelo Next-Themes.
-- [ ] **Rotas Dinâmicas de Produto:** Páginas detalhadas de um único produto simulando a visualização de detalhes (e.g. `/product/123`).
-
----
-
 
 
