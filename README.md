@@ -9,7 +9,7 @@
 
 ## Sobre o Projeto
 
-**Minha Loja** é um projeto de e-commerce moderno, rápido e responsivo, focado em demonstrar conhecimentos avançados no ecossistema **Next.js**. O objetivo principal desta aplicação é construir uma vitrine de produtos fluida e interativa, consumindo dados de uma API externa (FakeStoreAPI) e aplicando as melhores práticas de design e desenvolvimento frontend.
+É um projeto de e-commerce moderno, rápido e responsivo, focado em demonstrar conhecimentos avançados no ecossistema **Next.js**. O objetivo principal desta aplicação é construir uma vitrine de produtos fluida e interativa, consumindo dados de uma API externa (FakeStoreAPI) e aplicando as melhores práticas de design e desenvolvimento frontend.
 
 O projeto foi criado combinando o poder do **Next.js App Router** com a performance do **React 19** e estilizado com a versão mais recente do **Tailwind CSS (v4)**, garantindo uma interface requintada, limpa e com uma excelente usabilidade tanto em dispositivos móveis quanto em desktops.
 
