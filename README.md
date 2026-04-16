@@ -75,7 +75,7 @@ Siga o passo-a-passo abaixo para visualizar o projeto funcionando no seu ambient
 
 2. **Navegue até a pasta raiz:**
    ```bash
-   cd curso_next
+   cd ecommerce_next
    ```
 
 3. **Inicie a instalação das dependências (npm, yarn ou pnpm):**
