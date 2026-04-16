@@ -46,7 +46,7 @@ Este projeto foi construído utilizando as ferramentas de ponta disponíveis no 
 A organização de pastas foi feita guiando-se estritamente pelas boas práticas de escalabilidade do Next.js App Router:
 
 ```bash
-curso_next
+ecommerce_next
  ┣  app
  ┃ ┣ (auth)         # Rotas de Autenticação utilizando o conceito de "Route Groups"
  ┃ ┣ (root)         # Rotas e páginas principais visíveis aos usuários
